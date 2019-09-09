@@ -1,0 +1,212 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #9090ee;
+}
+.header {
+    text-align: center;
+    margin-top: 4em;
+}
+.header h1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 400;
+}
+.section {
+    width: 50%;
+    margin: 3em auto 0;
+	text-align: center;
+}
+.container {
+    background: #fff;
+	padding: 2em 1em;
+}
+.container h2 {
+    font-size: 2em;
+    text-transform: capitalize;
+	    color: #777;
+}
+.container p {
+    font-size: .95em;
+	color: #777;
+    line-height: 2em;
+}
+.container span {
+    width: 75%;
+    height: 1px;
+    display: block;
+    background: #eeee90;
+    margin: 1em auto;
+}
+.container h4 {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    margin-bottom: .2em;
+	    color: #777;
+}
+.container input[type="text"] {
+    padding: .8em 4em .8em 1em;
+    width: 80%;
+    margin-bottom: 1em;
+    border: 1px solid#CECCCC;
+	outline: none;
+	color: #555;
+}
+.container input[type="email"] {
+    padding: .8em 4em .8em 1em;
+    width: 80%;
+    margin-bottom: 1em;
+    border: 1px solid#CECCCC;
+    outline: none;
+    color: #555;
+}
+.container input[type="text"]:hover {
+    border: 1px solid #9090ee;
+}
+.container  textarea {
+    width: 80%;
+    height: 120px;
+    outline: none;
+	resize: none;
+	margin-bottom: 1em;
+	border: 1px solid #9090ee;
+	padding: .8em 4em .8em 1em;
+	font-size: 1em;
+	color: #555;
+}
+::-webkit-input-placeholder{
+color:#C3C3C3 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.container textarea:hover {
+    border: 1px solid #71c6c1;
+}
+.container input[type="submit"] {
+    font-size: 1em;
+    padding: .8em 1em;
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+    background: #9090ee;
+    color: #fff;
+    cursor: pointer;   
+	width: 56%;
+	font-family: 'Open Sans', sans-serif;
+	    border-bottom: 2px solid#eeee90;
+}
+.container input[type="submit"]:hover {
+    background: #eeee90;
+	border-bottom: 2px solid#9090ee;
+}
+.footer {
+    text-align: center;
+    padding: 3em 0;
+}
+.footer p {
+    font-size: 1em;
+    color: #fff;
+    margin: 0px;
+}
+.footer p a {
+    color: #000;
+}
+.footer p a:hover {
+    color: #fff;
+}
+/**responsive*/
+@media(max-width:1440px){
+.section {
+    width: 60%;
+}
+}
+@media(max-width:1366px){
+.section {
+    width: 60%;
+}
+}
+@media(max-width:1280px){
+.section {
+    width: 60%;
+}
+}
+@media(max-width:1080px){
+.section {
+    width: 60%;
+}
+.header h1 {
+    font-size: 3em;
+}
+.header {
+    text-align: center;
+    margin-top: 3em;
+}
+.container h2 {
+    font-size: 1.8em;
+}
+.container h4 {
+    font-size: 1.1em;
+}
+}
+@media(max-width:991px){
+.section {
+    width: 60%;
+}
+}
+@media(max-width:800px){
+.section {
+    width: 58%;
+}
+}
+@media(max-width:768px){
+.section {
+    width: 60%;
+}
+}
+@media(max-width:640px){
+.section {
+    width: 75%;
+}
+.header h1 {
+    font-size: 2.8em;
+}
+}
+@media (max-width: 480px){
+.section {
+    width: 95%;
+	margin: 2em auto 0
+}
+.header {
+    text-align: center;
+    margin-top: 2em;
+}
+.container {
+    background: #fff;
+    padding: 1em 1em;
+}
+.footer {
+    text-align: center;
+    padding: 2em 0;
+}
+}
+@media (max-width: 320px){
+.header h1 {
+    font-size: 2.3em;
+}
+.container input[type="submit"] {
+   width: 67%;
+ }
+.container p {
+    line-height: 1.5em;
+}
+.container h2 {
+    font-size: 1.6em;
+}
+.container h4 {
+    font-size: 1em;
+}
+.container input[type="text"],.container textarea {
+   width: 73%;
+}
+.footer p {
+    font-size: .95em;
+}
+}
